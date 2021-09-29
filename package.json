@@ -1,0 +1,38 @@
+{
+  "name": "discord-dev",
+  "version": "1.0.0",
+  "description": "A bot for Epitech Discord",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "package.json": "^2.0.1",
+    "pm2": "^4.5.6",
+    "sqlite3": "^5.0.2",
+    "stream": "^0.0.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "scripts": {
+    "test": "node bot.js",
+    "build-docs": "jsdoc *.js commands/*.js -d docs",
+    "open-docs": "google-chrome docs/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Epitech-Reunion/Discord-Dev.git"
+  },
+  "author": "Club Discord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Epitech-Reunion/Discord-Dev/issues"
+  },
+  "homepage": "https://github.com/Epitech-Reunion/Discord-Dev#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}

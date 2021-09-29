@@ -1,0 +1,28 @@
+{
+    "token": "C'est non :)",
+    "prefix": "!",
+    "channels": {
+        "ticket": {
+            "category_id" : "IDIDIDIDIDIDIDIDIDID"
+        },
+        "temporary_channel" : {
+            "category_id" : "IDIDIDIDIDIDIDIDIDID",
+            "channel_id": "IDIDIDIDIDIDIDIDIDID"
+        },
+        "activities": {
+            "channel_command_id" : "IDIDIDIDIDIDIDIDIDID",
+            "category_id" : "IDIDIDIDIDIDIDIDIDID",
+            "file_channel_id" : "IDIDIDIDIDIDIDIDIDID"
+        },
+        "command": {
+            "channel_command_id" : "IDIDIDIDIDIDIDIDIDID",
+            "channel_command_pedago_id" : "IDIDIDIDIDIDIDIDIDID"
+        }
+    },
+    "mysqlData": {
+        "host": "localhost",
+        "user": "localhost",
+        "database": "localhost",
+        "password": "localhost"
+    }
+}
